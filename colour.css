@@ -15,7 +15,8 @@ h1 {
 }
 
 .square {
-  width: 30%;
+  border: 3px solid white;
+  width: 29%;
   background: purple;
   padding-bottom: 30%;
   float: left;
