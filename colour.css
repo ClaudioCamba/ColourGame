@@ -69,11 +69,7 @@ button:hover {
   background-color: steelblue;
 }
 
-<<<<<<< HEAD
 @media (max-width: 588px) {
-=======
-@media (max-width: 415px) {
->>>>>>> 05fd3c0595bbc45bb513d34e4a0ed26d8210752b
   h1 {
       padding: 5px 0;
   }
