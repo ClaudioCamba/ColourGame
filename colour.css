@@ -15,7 +15,8 @@ h1 {
 }
 
 .square {
-  width: 30%;
+  border: 3px solid white;
+  width: 29%;
   background: purple;
   padding-bottom: 30%;
   float: left;
@@ -66,4 +67,36 @@ button {
 button:hover {
   color: white;
   background-color: steelblue;
+}
+
+@media (max-width: 415px) {
+  h1 {
+      padding: 5px 0;
+  }
+  #colorDisplay {
+    font-size: 125%;
+  }
+  .square {
+    width: 45%;
+    padding-bottom: 40%;
+  }
+  #container {
+    margin: 0px auto;
+  }
+}
+@media (max-width: 355px) {
+  h1 {
+      padding: 5px 0;
+  }
+  #colorDisplay {
+    font-size: 100%;
+    font-weight: bold;
+  }
+  .square {
+    width: 44.5%;
+    padding-bottom: 38%;
+  }
+  #stripe{
+    font-size: 75%;
+  }
 }
