@@ -83,6 +83,10 @@ button:hover {
   #container {
     margin: 0px auto;
   }
+  #reset,.mode{
+    font-size: 75%;
+    font-weight: bold;
+  }
 }
 @media (max-width: 355px) {
   h1 {
@@ -96,7 +100,8 @@ button:hover {
     width: 44.5%;
     padding-bottom: 38%;
   }
-  #stripe{
+  #reset,.mode{
     font-size: 75%;
+    font-weight: bold;
   }
 }
