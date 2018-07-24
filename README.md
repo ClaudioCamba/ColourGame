@@ -1,1 +1,1 @@
-# ColourGame
+# The RGB Game
